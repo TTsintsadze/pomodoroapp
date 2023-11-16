@@ -7,6 +7,9 @@ module.exports = {
     src: "/",
   },
   plugins: ["@snowpack/plugin-postcss"],
+  buildOptions: {
+    out: 'custom_output_directory_name',
+  },
   // installOptions: {},
   // devOptions: {},
   // buildOptions: {},
